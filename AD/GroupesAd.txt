@@ -1,0 +1,182 @@
+Employes de l'entreprise:
+Document (à compléter si vous trouvez que ça manque d'informations)
+qui permet de faire la création des groupes et attribué des droits aux utilisiteurs(écriture et/ou lecture), 
+les noms des sessions des utilisateurs et leur mot de passe du reseau interne de l 'entreprise l'AD.
+
+
+Reception:
+1)Identifiant:
+Henriette.Dumans
+
+Mot de Passe:
+HenrietteDumans35
+
+2)Identifiant:
+Patricia.Dubois
+
+Mot de Passe:
+PatriciaDubois35
+
+Graphistes:
+1)Chef: Thérèse
+Ponsabledugroupe
+Identifiant:
+Therese.Ponsabledugroupe
+Mot de Passe:
+TheresePonsabledugroupe35 
+
+2) Identifiant:
+Marcelle.Arpin
+
+Mot de passe:
+MarcelleArpin35
+
+3) Identifiant:
+JeanPotvin
+
+Mot de passe:
+JeanPotvin35
+
+4)Identifiant:
+Bruno.Mousseau
+
+Mot de passe:
+BrunoMousseau35
+
+
+5)Identifiant:
+Guillaume.Frappier
+
+Mot de passe:
+GuillaumeFrappier35
+
+6)Identifiant:
+Brigliador.Lamy
+
+Mot de passe:
+BrigliadorLamy
+
+7)Identifiant:
+Olympia.Thibault
+
+Mot de passe:
+OlympiaThibault35
+
+8)Identifiant:
+Afrodille.Rouze
+
+Mot de passe:
+AfrodilleRouze35
+
+9)Identifiant:
+Eglantine.Xois
+
+Mot de passe:
+EglantineXois
+
+10)Identifiant:
+Denis.Brian
+
+Mot de passe:
+DenisBrian35
+
+11)Identifiant:
+Morgan.Lanteigne
+Mot de passe:
+MorganLanteigne
+
+12)Identifiant
+Alberta.Coon
+
+Mot de passe:
+AlbertaCoon35 
+
+13)Identifiant
+Emmanuel.Busson
+
+Mot de passe:
+EmmanuelBusson35
+
+14)Identifiant
+Blondelle.Beaudry
+
+Mot de passe:
+BlondelleBeaudry35
+
+Commerciaux:
+1)Chef: Sophie Fonfec
+Identifiant:
+Sophie.Fonfec
+
+Mot de passe:
+SophieFonfec35
+
+2)Identifiant:
+Joe.Girard
+
+Mot de passe:
+JoeGirard35
+
+3)Identifiant:
+Nadia.Cammarata 
+
+Mot de passe:
+NadiaCammarata35 
+
+4)Identifiant:
+Arthur.Lenoir
+
+Mot de passe:
+ArthurLenoir35
+
+5)Identifiant:
+Luis.Anderson
+
+Mot de passe:
+LuisAnderson35
+
+6)Identifiant:
+Javier.Fortier
+
+Mot de passe:
+JavierFortier35
+
+7)Identifiant:
+Juliette.Bazin
+
+Mot de passe:
+JulietteBazin35
+
+8)Identifiant:
+Marjolaine.Lang
+
+Mot de passe:
+MarjolaineLang35
+
+
+9)Identifiant:
+Burkett.Duhamel
+
+Mot de passe:
+BurkettDuhamel35
+
+
+10)Identifiant:
+Burnell.Gaudreau
+ 
+Mot de passe:
+BurnellGaudreau35
+
+CEO:PDG
+THE ONE)Identifiant 
+Jérémie.LePecesurlburo
+
+Mot de passe
+JeremieLePecesurlburo1
+
+Secrétariat:
+1)Identifiant
+Simone.Aipéni
+
+Mot de passe:
+SimoneAipéni35
