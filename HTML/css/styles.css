@@ -147,9 +147,18 @@ header img
     justify-content: space-around;
     padding: 30px;
     width: 20%;
-    height: 500px;
+    height: 550px;
     background-color: white;
     border: 2px solid black;
+}
+
+#nosProjets article article p
+{
+    border-top-left-radius: 1px solid transparent;
+    border-top-right-radius: 1px solid transparent;
+    border-top: 2px solid black;
+    padding-top: 15px;
+    text-align: center;
 }
 
 #nosProjets img
@@ -187,10 +196,9 @@ footer img
     height: 50px;
 }
 
-footer div
+footer div img
 {
-    display: flex;
-    justify-content: space-between;
+    padding-right: 10px;
 }
 
 
