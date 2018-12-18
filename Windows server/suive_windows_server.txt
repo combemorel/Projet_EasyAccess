@@ -1,0 +1,3 @@
+.Installation d'un Windows server2016 en VM sur proxmox adresse (10.3.4.80)
+.Clonage de la VM
+.Installation du role IIS sur VM101.
