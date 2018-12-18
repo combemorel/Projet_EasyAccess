@@ -1,0 +1,5 @@
+18 décembre 2018--MARDI
+	WIREFRAME:
+		.page web de bobart client (face visible pour les utilisateurs)
+		.page d'authenfication back office
+		.page de
