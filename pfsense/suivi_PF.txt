@@ -1,0 +1,8 @@
+18 décembre 2019---MARDI
+	.attribution de l'adresse ip de la passerelle vers le NAT (IMIE) > pfsense : 10.3.4.254 / 24. Sur l'ethernet INTEL.
+	.instalation de virtual box
+	.virtualisation de pfsense
+	.carte intel (LAN pfsense)
+	.carte realteck (wan pfsense)
+	.acces au réseaux imie. ip atribué par le serv dhcp de l'imie.
+	.atribution d'un regle de parefeu, pour permettre au client extérieur au réseau d'avoir acces a la passerelle
