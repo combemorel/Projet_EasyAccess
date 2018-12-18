@@ -1,0 +1,24 @@
+serveur1 
+IP FIXE: 10.3.4.253	masque:	255.255.255.0	
+AD,
+DHCP,  DNS
+
+serveur0
+IP FIXE: 10.3.4.252	masque: 255.255.255.0
+
+IIS serveur web windows
+
+
+server2 DB
+IP : 10.3.4.251 masqye: 255.255.255.0
+
+
+Les serveurs 0, 1, 2 sont paramétrer en IP Fixe afin d'y accéder plus rapidement 
+
+Les PC clients ont des adresses IPS dynamique qui sont fournis pas le serveur1 
+
+PFsense 
+le pfSense c est un routeur qui permet de connecter plusieurs réseaux informatiques ensemble. LE PF comporte deux portes (entrée sortie) chacun comporte des adresses fixes pour faire la connexions entre les réseaux.
+IP porte de droite (10.3.4.254 masque 255.255.255.0) porte de gauche (172.17.4.210 (porte IMIE)).
+
+
