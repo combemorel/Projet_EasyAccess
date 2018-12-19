@@ -22,15 +22,20 @@
 
 /* body */
 
-html{
+/*
+html
+{
     height: 100%;
 }
+*/
 body
 {
+/*
     display: flex;
     flex-direction: column;
     min-height: 100%;
-    position: relative;
+*/
+/*    position: relative;*/
     background-color: #343d5f;
 }
 
@@ -194,8 +199,10 @@ header img
 
 
 footer
-{   position: absolute;
+
+{   /*position: absolute;
     bottom: 0;
+*/
     display: flex;
     justify-content: space-around;
     align-items: center;
