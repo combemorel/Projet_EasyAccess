@@ -234,12 +234,14 @@ footer div img
 /*                     PAGE CONNECTION                     */
 /*--------------------------------------------------*/
 
+/*
 #connect {
     display: flex;
     justify-content: center;
     padding:20px;
    
 }
+*/
 #connect_1{
     display: flex;  
     align-items: center;
