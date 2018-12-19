@@ -48,6 +48,7 @@ body
 }
 h1{
     font-family: brln;
+    font-size: 50px;
     color: #ffffff;
 }
 h2
@@ -287,8 +288,8 @@ fieldset > div{           /*contenu du formulaire*/
 /*                     PAGE LISTE                    */
 /*--------------------------------------------------*/
 section{
-    height:500px;
-    background-color: blac
+    height:1200px;
+    background-color: black;
 }
 #liste{
     display: flex;
@@ -299,17 +300,35 @@ section{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    height:500px
+    height:500px;
+    width: 900px;
 }
 #liste_1 div {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 45%;  
+    width: 45%; 
+    margin-bottom: 60px;
+    margin-top: 40px;
+    box-shadow:  5px 5px 5px 5px #343d5f;    
+    
+}
+#liste_1 img{
+    width: 65%;
+    margin: 60px;
+   
+}
+#liste h1{
+    height: 100px;
+    margin-top: 40px;
+
 }
 #liste_1 h2 {
-    color:#ffffff;
+    margin:20px;
+     text-shadow: 3px 3px 3px #c8c8c8;
+    color:#343d5f;
 }
 #liste_1 p{
+    margin: 20px;
     color:#ffffff;
 }
