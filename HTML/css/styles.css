@@ -22,9 +22,15 @@
 
 /* body */
 
-
+html{
+    height: 100%;
+}
 body
 {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    position: relative;
     background-color: #343d5f;
 }
 
@@ -187,11 +193,14 @@ header img
 
 
 footer
-{
+{   position: absolute;
+    bottom: 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 200px;
+    width: 100%;
+   
 }
 
 footer p 
@@ -214,6 +223,49 @@ footer div img
     padding-right: 10px;
 }
 
+/*                     PAGE CONNECTION                     */
+/*--------------------------------------------------*/
 
+#connect {
+    display: flex;
+    justify-content: center;
+    padding:20px;
+   
+}
+#connect_1{
+    display: flex;  
+    align-items: center;
+    justify-content: space-around;
+    background: url(img/Create_2.png);
+    height: 500px;
+    width: 100%;
+    
+}
+#connect_1  fieldset{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+    height: 300px;
+    width: 300px;  
+}           
 
+legend{
+    font-family: 'milestone', sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+}
+    
+fieldset > div{
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-content: center;
+    height: 200px   
+}
+#connexion{
+    width: 50%;
+}
+ 
 
