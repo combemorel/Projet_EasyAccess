@@ -332,3 +332,37 @@ section{
     margin: 20px;
     color:#ffffff;
 }
+
+/*                     PAGE PROPOSITION             */
+/*--------------------------------------------------*/
+
+#proposition{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: black;
+    height: 500px ;   
+}
+#desc{
+    height: 200px
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
+    margin:40px;
+    box-shadow:  5px 5px 5px 5px #343d5f; 
+}
+form img{
+    width: 10%;
+    margin: 20px 10px 10px 0px;
+}
+#proposition h1{
+    margin:20px;
+}
+form input{
+    width: 40%;
+    margin: 20px 0px 20px 35px;
+    padding-bottom: 12px;
+}
