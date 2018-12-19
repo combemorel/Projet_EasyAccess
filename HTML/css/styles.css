@@ -46,12 +46,16 @@ body
     font-size: 60px;
     color: #ffffff;
 }
-
+h1{
+    font-family: brln;
+    color: #ffffff;
+}
 h2
 {
     text-align: center;
     font-size: 40px;
     text-transform: capitalize;
+    
 }
 
 h3
@@ -206,7 +210,7 @@ footer
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 200px;
+    height: 100px;
     width: 100%;
    
 }
@@ -242,40 +246,70 @@ footer div img
    
 }
 */
-#connect_1{
+#connect_1{         /*---header----*/
     display: flex;  
     align-items: center;
     justify-content: space-around;
-    background: url(img/Create_2.png);
+    background-color: black;
     height: 500px;
     width: 100%;
+    padding: 0px 250px 0px 350px;
     
 }
-#connect_1  fieldset{
+ fieldset{       /*formulaire connexion*/
+    height: 300px;
+    width: 300px; 
     display:flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    padding-top: 100px;
-    height: 300px;
-    width: 300px;  
+    justify-content: center;
+    align-content: center;
 }           
 
-legend{
+legend{                   /*text haut du formulaire*/  
     font-family: 'milestone', sans-serif;
     font-size: 30px;
     color: #ffffff;
 }
     
-fieldset > div{
+fieldset > div{           /*contenu du formulaire*/
     display: flex;
     flex-direction:column;
     justify-content:space-around;
-    align-content: center;
-    height: 200px   
+    align-items: center;
+    height: 70%;  
+    margin-top: 30px
 }
-#connexion{
-    width: 50%;
+#connect_1 img{    /*image de l'ampoule*/
+    width:40%;
+  
 }
- 
-
+    
+/*                     PAGE LISTE                    */
+/*--------------------------------------------------*/
+section{
+    height:500px;
+    background-color: blac
+}
+#liste{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#liste_1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height:500px
+}
+#liste_1 div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 45%;  
+}
+#liste_1 h2 {
+    color:#ffffff;
+}
+#liste_1 p{
+    color:#ffffff;
+}
