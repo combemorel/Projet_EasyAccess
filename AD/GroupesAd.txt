@@ -4,7 +4,7 @@ qui permet de faire la création des groupes et attribué des droits aux utilisite
 les noms des sessions des utilisateurs et leur mot de passe du reseau interne de l 'entreprise l'AD.
 
 
-Reception:
+Reception id = 1:
 1)Identifiant:
 Henriette.Dumans
 
@@ -15,9 +15,15 @@ HenrietteDumans35
 Patricia.Dubois
 
 Mot de Passe:
-PatriciaDubois35
-
-Graphistes:
+PatriciaDubois35
+
+
+
+
+
+
+Graphistes id = 2:
+
 1)Chef: Thérèse
 Ponsabledugroupe
 Identifiant:
@@ -103,7 +109,7 @@ Blondelle.Beaudry
 Mot de passe:
 BlondelleBeaudry35
 
-Commerciaux:
+Commerciaux id =3: //////////////////////////////////////////////////////
 1)Chef: Sophie Fonfec
 Identifiant:
 Sophie.Fonfec
@@ -167,14 +173,14 @@ Burnell.Gaudreau
 Mot de passe:
 BurnellGaudreau35
 
-CEO:PDG
+CEO id = 4 //////////////////////////////////////////////////////////////////////// :PDG
 THE ONE)Identifiant 
 Jérémie.LePecesurlburo
 
 Mot de passe
 JeremieLePecesurlburo1
 
-Secrétariat:
+Secrétariat id = 5 ////////////////////////////////////////////////////////////////////:
 1)Identifiant
 Simone.Aipéni
 
