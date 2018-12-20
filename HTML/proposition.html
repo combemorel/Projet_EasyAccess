@@ -25,15 +25,11 @@
       <article id=proposition>
           <h1>Soumettre une idée</h1>
           <div>
-          <form methode="post" action="proposition_idée.php">
-              <input type="text" name="nom de la marque"  placeholder="Nom de la marque"/>
-              <textarea name="description" id=desc >Description</textarea>
-              <a href="">
-				<img  src="css/img/upload.png" 
-				title="importer image" alt="importer image">Choisir une image</a>
-              
-                <input type="submit" value="Envoyer"/>
-             
+          <form methode="post" action="formAjouterIdee.php">
+              <input type="text" name="titre"  placeholder="Nom de la marque"/>
+              <textarea type="textarea" name="description" id=desc >Description</textarea>
+              <input type="file" name="image"/>
+              <input type="submit" value="Envoyer"/>
           </form>
           </div>
       </article>   
