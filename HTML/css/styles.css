@@ -188,7 +188,7 @@ header img
     height: 300px;
 }
 
-/*                      IDEE DU MOMENT              */
+/*                      IDEE DU MOMENT                                  idéeDuMoment.html
 /*--------------------------------------------------*/
 
 #ideeDuMoment {
@@ -271,7 +271,7 @@ footer div img
     padding-right: 10px;
 }
 
-/*                     PAGE CONNECTION                     */
+/*                     PAGE CONNECTION                                  connexion_bo.html
 /*--------------------------------------------------*/
 
 #connect_2{
@@ -317,19 +317,19 @@ fieldset > div{           /*contenu du formulaire*/
   
 }
     
-/*                     PAGE IDEES PROPOSEES                   */
+/*                     PAGE IDEES PROPOSEES                                 liste_pub.html
 /*--------------------------------------------------*/
-section{
+section{           /* corps de la page*/
     
     height:1200px;
     background-color: black;
 }
-#liste{
+#liste{             /*contient h1_div*/
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-#liste_1{
+#liste_1{               /*contient les div*/
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -337,7 +337,7 @@ section{
     width: 900px;
     text-align: center;
 }
-#liste_1 div {
+#liste_1 div {          /* div=1idée*/
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -347,27 +347,27 @@ section{
     box-shadow:  5px 5px 5px 5px #343d5f;    
     
 }
-#liste_1 img{
+#liste_1 img{           /*image de chq div*/
     width: 65%;
     margin: 60px;
    
 }
-#liste h1{
+#liste h1{                 /*gros titre */
     height: 100px;
     margin-top: 40px;
 
 }
-#liste_1 h2 {
+#liste_1 h2 {           /*nom de l'idée*/
     margin:20px;
-     text-shadow: 3px 3px 3px #c8c8c8;
+    text-shadow: 3px 3px 3px #c8c8c8;
     color:#343d5f;
 }
 #liste_1 p{
     margin: 20px;
     color:#ffffff;
 }
-
-/*                     PAGE PROPOSITION             */
+/*-----------------------------------------------*/
+/*                     PAGE SOUMETTRE UNE IDEES                             proposition.html
 /*--------------------------------------------------*/
 
 #proposition{
@@ -409,29 +409,41 @@ form input{
 ----------------------------------------------------------------------EXPENSIVE---------------------------------
 ----------------------------------------------------*/
 
-@media(max-width: 376px) AND (max-height:668px){
- 
+@media(min-width: 300px) AND (max-width:770px){
+  /*body{
+        margin-left: 8%;
+        
+    }*/
+/*------------page IDEES PROPOSEES--------*/
+    
 #liste{
-        height: 2050px;
+        height: 2100px;
         margin:0px 20px 0px 20px;
     }
 
 #liste_1 div{
-        width: 45%;
-        margin-left: 30%;
-        margin-right: 30%;
+        width: 50%;
+        margin-left: 3%;
+        margin-right: 3%;
         margin-bottom: 0px;
         padding-bottom: 80px;
         flex-direction:row;
-        flex-wrap:wrap;}
+        flex-wrap:wrap;
+    }
     
 #liste_1 img{
-        width: 250px;
-        height: 150px;
-        margin:10px ;}
+        width: 60%;
+        height: 40%;
+        margin:10px ;
+    }
     
 #liste h1{
         text-align: center;
+       
+}
+#liste h2{
+    text-align: center;
+    width:70%;
        
 }
         
@@ -440,7 +452,7 @@ form input{
     height:25px;
 }
 #liste_1 p{
-    width: 250px;
+    width: 320px;
     height: 150px;
     margin: 5px;
 }
@@ -451,7 +463,8 @@ footer img{
     }
 
 .h1{
-    font-size: 30px;     
+    font-size: 30px;   
+    box-shadow:  5px 5px 5px 5px #343d5f; 
 }
 footer {
     height:150px;
@@ -460,7 +473,18 @@ footer {
     flex-direction: column;
         
     }
+ /*------------page SOUMETTRE UNE IDEE--------*/
    
+    #proposition{
+        width: 80%;
+        
+    }
+        
+    }
+    
+
+
+
         
     
 
