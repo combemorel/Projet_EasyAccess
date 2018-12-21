@@ -24,7 +24,7 @@ if (isset($_POST['login'])){
 	
 		if ($resultat['count(*)']==1)
 		{
-		header('location:form.html');
+		header('location:ideeeDuMoment.html');
 		}
 
 	}
