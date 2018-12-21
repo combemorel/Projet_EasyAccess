@@ -171,7 +171,7 @@ header img
 #nosProjets
 {
     background-color: grey;
-    height: 800px;
+    height: 700px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -233,16 +233,22 @@ header img
     display: flex;
     justify-content:flex-end;
     background: grey;
+    height:90px;
+   
 }
 
 .bas_de_page_1 img {
     width: 25%;
+    
+    
 }
 
 
 /*                      IDEE DU MOMENT                                  
 /*------------idéeDuMoment.html---------------------*/
-
+#nav_idée{
+    font-size: 15px;
+}
 #ideeDuMoment {
     display: flex;
     flex-direction: column;
@@ -372,7 +378,9 @@ fieldset > div{           /*contenu du formulaire*/
     
 /*                     PAGE IDEES PROPOSEES                                 
 /*---------------liste_pub.html------------*/
-
+.nav_idéedm{
+    font-size: 15px;
+}
 section{           /* corps de la page*/
     
     height:1200px;
@@ -423,7 +431,9 @@ section{           /* corps de la page*/
 /*-----------------------------------------------*/
 /*                     PAGE SOUMETTRE UNE IDEES                             
 /*----------------------- proposition.html---------------------------*/
-
+.nav_idéedm{
+    font-size: 15px;
+}
 #proposition{
     display: flex;
     flex-direction: column;
@@ -470,8 +480,10 @@ form input{
     }*/
 /*------------page IDEES PROPOSEES--------*/
     
+    }   
 #liste{
-        height: 2100px;
+        height: 2200px;
+    width: 600px;
        /* margin:0px 20px 0px 20px;*/
     }
 
@@ -548,6 +560,7 @@ footer {
     
    /*------------page IDEE DU MOMENT--------*/ 
     
+   
     
     #ideeDuMoment h1{
         text-align: center;
