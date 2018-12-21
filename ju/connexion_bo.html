@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link href="css/styles.css" rel="stylesheet"/> <!-- lien ver le fichier css-->
+        <meta name="author" content="EasyAccess">
+	    <meta name="description" content="Site vitrine BobArt et backoffice ">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BobArt</title> <!-- nom qui aparait dans le navigateur -->
+    </head>
+    <body>
+         <!-------------------------------------------------------------------------------->
+        <!-------------------------------------HEADER------------------------------------->
+        <!-------------------------------------------------------------------------------->
+        
+        <header id=connect>
+            <nav>
+                <p class="h1">BobArt</p>
+            </nav>
+        </header>
+        
+         <!-------------------------------------------------------------------------------->
+        <!-------------------------------------BODY CONNEXION------------------------------------>
+        <!-------------------------------------------------------------------------------->
+        <section id=connect_2>
+        <article id=connect_1>
+            <form method="POST" action="connexion.php"> 
+            <fieldset>  <!------création d'un formulaire-->
+                <legend>mon compte</legend>
+                
+                <div>
+                <input type="text" name="login" id="identifiant" placeholder="Votre identifiant"/>
+                <input type="password" name="mdp" id="mdp" placeholder="Mot de passe"/> 
+                <input id="connexion" type="submit" value="Connexion"/>
+                 </div>
+            
+            </fieldset>
+        </form>
+            <img src="css/img/Create_2.png" alt="ampoule create">  
+        </article>
+        
+         </section> 
+         <!-------------------------------------------------------------------------------->
+        <!-------------------------------------FOOTER------------------------------------->
+        <!-------------------------------------------------------------------------------->
+        <footer id="footer">
+            <p class="h1">bob art</p>
+            <p>EasyAccess | Tous droits réservés</p>
+            <div id="rs">
+                <a href=""><img src="css/img/logo_fb.png" alt="logoFb"></a>
+                <a href=""><img src="css/img/logo_insta.png" alt="logoInsta"/></a>
+                <a href=""><img src="css/img/logo_twitter.png" alt="logoTwitter"/></a>
+            </div>
+            
+        </footer>
+        
+    </body>
+</html>
