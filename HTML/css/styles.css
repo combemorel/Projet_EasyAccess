@@ -1,0 +1,587 @@
+
+@font-face {        
+    font-family: brln;               /* NE PAS TOUCHER */
+    src: url('font/BRLNSB.TTF');     /* NE PAS TOUCHER */
+}
+
+@font-face {        
+    font-family: impact;               /* NE PAS TOUCHER */
+    src: url('font/impact.ttf');     /* NE PAS TOUCHER */
+}
+
+@font-face {        
+    font-family: milestone;               /* NE PAS TOUCHER */
+    src: url('font/MilestoneFreeVersion-Script.otf');     /* NE PAS TOUCHER */
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'impact',serif,sans-serif;
+}
+
+/* body */
+
+/*
+
+html
+{
+    height: 100%;
+}
+*/
+
+body
+{
+/*
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    
+*/
+
+/*    position: relative;*/
+    background-color: #343d5f;
+}
+
+.h1        /*logo*//* cest bon comme ca ?? */
+{
+    font-family: 'milestone', sans-serif;
+    text-transform: capitalize;
+    font-size: 60px;
+    color: #ffffff;
+}
+h1{            /*titre de chaque page*/
+    font-family: brln;
+    font-size: 50px;
+    color: #ffffff;
+}
+h2              /*titre des idées*/
+{
+    text-align: center;
+    font-size: 40px;
+    text-transform: capitalize;
+    
+}
+
+h3
+{
+    font-size: 25px;
+    color: black;
+}
+
+
+/*                      HEADER                      */
+/*--------------------nav + image-----------*/
+
+header
+{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+header nav /* menu */
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    font-size: 25px;
+}
+
+header a
+{
+    color: #ffffff;
+    font-family: 'brln',sans-serif;
+    text-decoration: none;
+    font-weight: lighter;
+    text-transform: capitalize;
+}
+
+header a:hover
+{
+    border-bottom: 3px solid  #aeb1bf;
+    
+}
+
+header img
+
+{
+    width: 100%;
+    height: 1000px;
+}
+
+
+/*                      NOTRE ACTIVITE              */
+/*--------------------------------------------------*/
+
+
+#notreactivité
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    height: 800px;
+    margin-bottom: 10px;
+}
+#notreactivité article
+{
+    margin: 0 200px;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#notreactivité h2
+{
+    padding-bottom: 50px;
+}
+/* pour revenir en haut de page*/
+.bas_de_page {
+    /*Taille de la box 
+    height: 50px;
+    width: 200px;
+
+    /* Positionnement 
+    padding-left: 20px;
+    padding-bottom: 100px;*/
+    display: flex;
+    justify-content:flex-end;
+    padding-top: 50px
+    
+
+    /* Agencement 
+    align-items: center;
+    flex-flow: row;*/
+}
+
+.bas_de_page img {
+    width: 25%;
+}
+
+
+/*                      NOS PROJETS                 */
+/*--------------------------------------------------*/
+
+
+#nosProjets
+{
+    background-color: grey;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#nosProjets article
+{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#nosProjets article article
+{
+    color:white;            /*changement pour responsive */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+   /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    width: 20%;
+    height: 550px;
+    background-color: white;
+    border: 2px solid black;*/
+}
+
+#nosProjets article article p
+{   margin: 20px;
+    color:black;             /*changement pour responsive */
+    text-align: center;
+   /* border-top-left-radius: 1px solid transparent;
+    border-top-right-radius: 1px solid transparent;
+    border-top: 2px solid black;
+    padding-top: 15px;
+    text-align: center;*/
+}
+#nosProjets article article h3{
+    padding-bottom: 20px;
+}
+
+#nosProjets img
+{
+    width: 60%;
+    height: 300px;
+}
+
+#text{
+    font-size: 10px;
+}
+/* pour revenir en haut de page*/
+.bas_de_page_1 {
+    
+    display: flex;
+    justify-content:flex-end;
+    background: grey;
+    height:90px;
+   
+}
+
+.bas_de_page_1 img {
+    width: 25%;
+    
+    
+}
+
+
+/*                      IDEE DU MOMENT                                  
+/*------------idéeDuMoment.html---------------------*/
+#nav_idée{
+    font-size: 15px;
+}
+#ideeDuMoment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px ;
+    height: 900px;
+}
+#ideeDuMoment_1{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#ideeDuMoment_1 div{
+    width: 400px;
+    margin: 40px;
+}
+#ideeDuMoment_1 img{
+    width: 70%;
+}
+#ideeDuMoment_1 p{
+   
+    text-align: center;
+    padding: 20px
+}
+#ideeDuMoment_1 h3{
+    text-align: center
+}
+
+/*#ideeDuMoment article
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 200px 620px;
+    background-color: white;
+    padding: 20px;
+    border: 3px solid black;
+}*/
+
+
+/*                      FOOTER                      */
+/*--------------------------------------------------*/
+
+
+footer
+
+{   /*position: absolute;
+    bottom: 0;
+*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+   
+}
+
+footer p 
+{
+    position: relative;
+    top: 20px;
+    font-size: 10px;
+    color: grey;
+    font-family: sans-serif;
+}
+
+footer img
+{
+    width: 50px;
+    height: 50px;
+}
+
+footer div img
+{
+    padding-right: 10px;
+}
+
+/*                     PAGE CONNECTION                                 
+/*----------------- connexion_bo.html---------------*/
+
+#connect_2{
+    height: 500px;
+}
+
+
+#connect_1{         /*---corps de la page----*/
+    display: flex;  
+    align-items: center;
+    justify-content:center;
+    background-color: black;
+    height: 500px;
+    width: 100%;
+    /*padding: 0px 250px 0px 350px;*/
+    
+}
+ fieldset{       /*formulaire connexion*/
+    height: 300px;
+    width: 300px; 
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}           
+
+legend{                   /*text haut du formulaire*/  
+    font-family: 'milestone', sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+}
+    
+fieldset > div{           /*contenu du formulaire*/
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items: center;
+    height: 70%;  
+    margin-top: 30px
+}
+/*#connect_1 img{    /*image de l'ampoule*/
+    width:40%;
+  
+}/*
+    
+/*                     PAGE IDEES PROPOSEES                                 
+/*---------------liste_pub.html------------*/
+.nav_idéedm{
+    font-size: 15px;
+}
+section{           /* corps de la page*/
+    
+    height:1200px;
+    background-color: black;
+}
+#liste{             /*contient titre +les idées*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#liste_1{               /*contient les idées*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height:500px;
+    width: 900px;
+    text-align: center;
+}
+#liste_1 div {          /* une idée*/
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 45%; 
+    margin-bottom: 60px;
+    margin-top: 40px;
+    box-shadow:  5px 5px 5px 5px #343d5f;    
+    
+}
+#liste_1 img{           /*image de chq idée*/
+    width: 65%;
+    margin: 60px;
+   
+}
+#liste h1{                 /*gros titre */
+    height: 100px;
+    margin-top: 40px;
+
+}
+#liste_1 h2 {           /*nom de l'idée*/
+    margin:20px;
+    text-shadow: 3px 3px 3px #c8c8c8;
+    color:#343d5f;
+}
+#liste_1 p{
+    margin: 20px;
+    color:#ffffff;
+}
+/*-----------------------------------------------*/
+/*                     PAGE SOUMETTRE UNE IDEES                             
+/*----------------------- proposition.html---------------------------*/
+.nav_idéedm{
+    font-size: 15px;
+}
+#proposition{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: black;
+    height: 500px ; 
+
+}
+#desc{
+    height: 200px;
+    margin:0px 15px 0px 15px;
+    
+}
+form{                   /*le formulaire*/
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 300px;
+    margin:40px;
+    box-shadow:  5px 5px 5px 5px #343d5f; 
+    background: #ffffff;
+}
+form img{               
+    width: 10%;
+    margin: 20px 10px 10px 0px;
+}
+#proposition h1{
+    margin:20px;
+}
+form input{
+    width: 40%;
+    margin: 20px 0px 20px 35px;
+    padding-bottom: 12px;
+}
+
+/*--------------------------------------------------------
+----------------------------------------------------------------------RESPONSIVE---------------------------------
+----------------------------------------------------*/
+
+@media(min-width: 300px) AND (max-width:770px){
+  /*body{
+        margin-left: 8%;
+        
+    }*/
+/*------------page IDEES PROPOSEES--------*/
+    
+    }   
+#liste{
+        height: 2200px;
+    width: 600px;
+       /* margin:0px 20px 0px 20px;*/
+    }
+
+#liste_1 div{
+        width: 50%;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-bottom: 0px;
+        padding-bottom: 80px;
+        flex-direction:row;
+        flex-wrap:wrap;
+    }
+    
+#liste_1 img{
+        width: 60%;
+        height: 40%;
+        margin:10px ;
+    }
+    
+#liste h1{
+        text-align: center;
+       
+}
+#liste h2{
+    text-align: center;
+    width:70%;
+       
+}
+        
+#liste_1 select{
+    width: 250px;
+    height:25px;
+}
+#liste_1 p{
+    width: 320px;
+    height: 150px;
+    margin: 5px;
+}
+footer img{
+    width: 25px;
+    height: 25px;
+    
+    }
+
+.h1{
+    font-size: 30px;   
+    box-shadow:  5px 5px 5px 5px #343d5f; 
+}
+footer {
+    height:150px;
+    justify-content:space-around;
+    align-items:space-around;
+    flex-direction: column;
+        
+    }
+ /*------------page SOUMETTRE UNE IDEE--------*/
+   
+    #proposition{
+        padding-left: 2%; 
+    }
+    form{
+        width:80%;
+        margin-top: 5%;
+    }
+  /*------------page CONNEXION--------*/ 
+    
+    #connect_1{
+       padding-left: 45%;
+        width: 50%;
+    }
+    #connect_1 img{
+        padding-left: 50%;
+    }
+    
+   /*------------page IDEE DU MOMENT--------*/ 
+    
+   
+    
+    #ideeDuMoment h1{
+        text-align: center;
+    }
+    #ideeDuMoment_1 img{
+       width: 200px;
+        height: 300px;
+    }
+    
+    }
+    
+
+
+        
+    
+
+
+
+
+
+
+
+
+
