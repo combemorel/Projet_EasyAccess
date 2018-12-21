@@ -117,7 +117,7 @@ header img
 /*--------------------------------------------------*/
 
 
-#notreActivite
+#notreactivité
 {
     display: flex;
     flex-direction: column;
@@ -127,7 +127,7 @@ header img
     height: 800px;
     margin-bottom: 10px;
 }
-#notreActivite article
+#notreactivité article
 {
     margin: 0 200px;
     height: 70%;
@@ -136,9 +136,31 @@ header img
     justify-content: space-between;
 }
 
-#notreActivite h2
+#notreactivité h2
 {
     padding-bottom: 50px;
+}
+/* pour revenir en haut de page*/
+.bas_de_page {
+    /*Taille de la box 
+    height: 50px;
+    width: 200px;
+
+    /* Positionnement 
+    padding-left: 20px;
+    padding-bottom: 100px;*/
+    display: flex;
+    justify-content:flex-end;
+    padding-top: 50px
+    
+
+    /* Agencement 
+    align-items: center;
+    flex-flow: row;*/
+}
+
+.bas_de_page img {
+    width: 25%;
 }
 
 
@@ -205,6 +227,18 @@ header img
 #text{
     font-size: 10px;
 }
+/* pour revenir en haut de page*/
+.bas_de_page_1 {
+    
+    display: flex;
+    justify-content:flex-end;
+    background: grey;
+}
+
+.bas_de_page_1 img {
+    width: 25%;
+}
+
 
 /*                      IDEE DU MOMENT                                  
 /*------------idéeDuMoment.html---------------------*/
@@ -301,11 +335,11 @@ footer div img
 #connect_1{         /*---corps de la page----*/
     display: flex;  
     align-items: center;
-    justify-content: space-around;
+    justify-content:center;
     background-color: black;
     height: 500px;
     width: 100%;
-    padding: 0px 250px 0px 350px;
+    /*padding: 0px 250px 0px 350px;*/
     
 }
  fieldset{       /*formulaire connexion*/
@@ -331,10 +365,10 @@ fieldset > div{           /*contenu du formulaire*/
     height: 70%;  
     margin-top: 30px
 }
-#connect_1 img{    /*image de l'ampoule*/
+/*#connect_1 img{    /*image de l'ampoule*/
     width:40%;
   
-}
+}/*
     
 /*                     PAGE IDEES PROPOSEES                                 
 /*---------------liste_pub.html------------*/
